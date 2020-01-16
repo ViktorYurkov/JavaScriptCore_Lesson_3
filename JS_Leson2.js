@@ -1,7 +1,6 @@
 function show(data) {
     console.log(data);
 }
-
 //Завдання1
 var person = prompt("Введіть значення змінної");
 if (person > 0) {
@@ -11,7 +10,6 @@ if (person > 0) {
 } else {
     show(0);
 }
-
 //Завдання2
 var login = prompt("Who's there?") ; 
 if (login == "Admin" ) {
@@ -28,7 +26,6 @@ if (login == "Admin" ) {
 } else if (login == "Cancel" ) {
     show("Canceled");
 }
-
 //Завдання3
 var login = prompt("Who's there?") ;
 switch(login) {   
@@ -58,4 +55,4 @@ switch(login) {
         show("Canceled");
         break;
 }
-}
+} //test massege
